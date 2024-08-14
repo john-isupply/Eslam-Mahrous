@@ -10,7 +10,7 @@ let messages = [
 // Function to fetch data from Google Sheets using the provided URL
 async function fetchSheetData() {
     try {
-        const response = await fetchhttps://script.google.com/macros/s/AKfycbzJuZTlXsJy4jlhyGofaoKxXvDEpNaDOKTjYzqickUFpG2kGSVZCnTqJ3_QRlPGyO03/exec');
+        const response = await fetch('https://script.google.com/macros/s/AKfycbwVVGa4R-FFRWeOOuVHhJnBLc6gncHhJtdZQAbHAEKvJugKHcdx_YeirmidutJ7cbO-/exec');
         const data = await response.json();
 
         // تحقق من البيانات المستلمة
@@ -181,7 +181,7 @@ function updateFixedNumber() {
 
 // Open the Google Sheet
 function openGoogleSheet() {
-    window.open('https://docs.google.com/spreadsheets/d/1gBH1vcTdsm2jMbPMBRHvNXc62zFyMNDvvme-qUG8ue0/edit?gid=0#gid=0', '_blank');
+    window.open('https://docs.google.com/spreadsheets/d/1gBH1vcTdsm2jMbPMBRHvNXc62zFyMNDvvme-qUG8ue0/edit?gid=1996448202#gid=1996448202', '_blank');
 }
 
 // Event listeners for input changes to update the message preview
